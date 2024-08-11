@@ -1,61 +1,53 @@
-<body>
-    <h1>Customer Management System</h1>
 
-    <h2>Description</h2>
-    <p>The Customer Management System is a Java-based application that provides an interface for users to manage customer records in an Oracle SQL database. The program supports operations such as displaying, adding, deleting, and updating customer records, as well as managing account and loan details. All interactions are handled through a menu-driven interface, with outputs displayed in a user-friendly format.</p>
+# Customer Management System
 
-    <h2>Features</h2>
-    <ol>
-        <li><strong>Show Customer Records</strong>: Display all customer details in a formatted manner.</li>
-        <li><strong>Add Customer Record</strong>: Add a new customer by providing <code>cust_no</code>, <code>name</code>, <code>phoneno</code>, and <code>city</code>. Display updated customer records.</li>
-        <li><strong>Delete Customer Record</strong>: Delete a customer by providing <code>cust_no</code>. Display updated customer records.</li>
-        <li><strong>Update Customer Information</strong>: Update customer information by providing <code>cust_no</code> and choosing from:
-            <ul>
-                <li>Update name</li>
-                <li>Update phone number</li>
-                <li>Update city</li>
-            </ul>
-            Display updated customer records.
-        </li>
-        <li><strong>Show Account Details of a Customer</strong>: Display account details by providing <code>cust_no</code>.</li>
-        <li><strong>Show Loan Details of a Customer</strong>: Display loan details by providing <code>cust_no</code>.</li>
-        <li><strong>Deposit Money to an Account</strong>: Deposit money by providing the account number and amount. Display updated account details.</li>
-        <li><strong>Withdraw Money from an Account</strong>: Withdraw money by providing the account number and amount. Display updated account details.</li>
-        <li><strong>Exit the Program</strong>: Exit the application.</li>
-    </ol>
+## Description
+The Customer Management System is a Java-based application that provides an interface for users to manage customer records in an Oracle SQL database. The program supports operations such as displaying, adding, deleting, and updating customer records, as well as managing account and loan details. All interactions are handled through a menu-driven interface, with outputs displayed in a user-friendly format.
 
-    <h2>Prerequisites</h2>
-    <ul>
-        <li>Java Development Kit (JDK)</li>
-        <li>Oracle SQL Database</li>
-        <li>JDBC Driver for Oracle</li>
-    </ul>
+## Features
+1. **Show Customer Records**: Display all customer details in a formatted manner.
+2. **Add Customer Record**: Add a new customer by providing `cust_no`, `name`, `phoneno`, and `city`. Display updated customer records.
+3. **Delete Customer Record**: Delete a customer by providing `cust_no`. Display updated customer records.
+4. **Update Customer Information**: Update customer information by providing `cust_no` and choosing from:
+   - Update name
+   - Update phone number
+   - Update city
+   Display updated customer records.
+5. **Show Account Details of a Customer**: Display account details by providing `cust_no`.
+6. **Show Loan Details of a Customer**: Display loan details by providing `cust_no`.
+7. **Deposit Money to an Account**: Deposit money by providing the account number and amount. Display updated account details.
+8. **Withdraw Money from an Account**: Withdraw money by providing the account number and amount. Display updated account details.
+9. **Exit the Program**: Exit the application.
 
-    <h2>Installation and Setup</h2>
-    <ol>
-        <li><strong>Clone the repository</strong>:
-            <pre><code>git clone https://github.com/yourusername/CustomerManagementSystem.git
-cd CustomerManagementSystem
-            </code></pre>
-        </li>
-        <li><strong>Set up Oracle SQL Database</strong>: Create the necessary tables for customers, accounts, and loans.</li>
-        <li><strong>Configure Database Connection</strong>: Update the database connection details in the Java code (e.g., URL, username, password).</li>
-        <li><strong>Compile and Run the Program</strong>:
-            <pre><code>javac CustomerManagementSystem.java
-java CustomerManagementSystem
-            </code></pre>
-        </li>
-    </ol>
+## Prerequisites
+- Java Development Kit (JDK)
+- Oracle SQL Database
+- JDBC Driver for Oracle
 
-    <h2>Usage</h2>
-    <p>Run the program to display the menu with various operations. Choose an option and follow the prompts to provide the necessary information. The results will be displayed on the terminal screen.</p>
+## Installation and Setup
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/CustomerManagementSystem.git
+   cd CustomerManagementSystem
+   ```
+2. **Set up Oracle SQL Database**: Create the necessary tables for customers, accounts, and loans.
+3. **Configure Database Connection**: Update the database connection details in the Java code (e.g., URL, username, password).
+4. **Compile and Run the Program**:
+   ```bash
+   javac CustomerManagementSystem.java
+   java CustomerManagementSystem
+   ```
 
-    <h2>Exception Handling</h2>
-    <p>The program includes exception handling to manage errors during database operations and user input.</p>
+## Usage
+Run the program to display the menu with various operations. Choose an option and follow the prompts to provide the necessary information. The results will be displayed on the terminal screen.
 
-    <h2>Example Output</h2>
-    <p><img src="screenshots/example_output.png" alt="Example Output"></p>
-    <pre><code>1. Show Customer Records
+## Exception Handling
+The program includes exception handling to manage errors during database operations and user input.
+
+## Example Output
+![Example Output](screenshots/example_output.png)
+```plaintext
+1. Show Customer Records
 2. Add Customer Record
 3. Delete Customer Record
 4. Update Customer Information
@@ -73,25 +65,21 @@ Cust No | Name        | Phone No  | City
 1       | John Doe    | 1234567890| New York
 2       | Jane Smith  | 0987654321| Los Angeles
 ---------------------------------------
-    </code></pre>
+```
 
-    <h2>Screenshots</h2>
-    <p><img src="UI_Screenshots/1.png" alt="Main Menu"></p>
-    <p><img src="UI_Screenshots/2.png" alt="Customer Records"></p>
-    <p><img src="UI_Screenshots/3.png" alt="Main Menu"></p>
-    <p><img src="UI_Screenshots/4.png" alt="Customer Records"></p>
-    <p><img src="UI_Screenshots/5.png" alt="Main Menu"></p>
+## Screenshots
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/1.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/2.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/3.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/4.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/5.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/6.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/7.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/8.png)]
+[![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/9.png)]
 
-    <h2>Author</h2>
-    <p><a href="https://github.com/yourusername">Your Name</a></p>
+## Author
+[Your Name](https://github.com/yourusername)
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-    <h3>Instructions for Adding Screenshots</h3>
-    <ol>
-        <li><strong>Take a screenshot</strong> of your application's output.</li>
-        <li><strong>Save the screenshot</strong> in the <code>screenshots</code> directory within your project directory.</li>
-        <li><strong>Reference the screenshot</strong> in the README.md file as shown above.</li>
-    </ol>
-</body>
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
