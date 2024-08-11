@@ -79,7 +79,7 @@ Cust No | Name        | Phone No  | City
 [![Main Menu](https://github.com/Satyasuranjeet/Banking-System-Java/blob/master/UI_Screenshots/9.png)]
 
 ## Author
-[Your Name](https://github.com/yourusername)
+[Satya Suranjeet Jena](https://github.com/Satyasuranjeet)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
